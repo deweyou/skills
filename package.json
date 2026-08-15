@@ -1,0 +1,15 @@
+{
+  "name": "@deweyou/skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable Agent skills, rules, and design contracts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deweyou/skills.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
+    "validate": "node scripts/validate.mjs"
+  }
+}
